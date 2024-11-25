@@ -41,7 +41,7 @@ This project focuses on creating a responsive, multi-section webpage with modern
 * Open the index.html file using your browser:
    * On macOS:
      ```
-     cd Zephyrus-coding/task1
+     open index.html
      ```
   * On Windows:
     ```
