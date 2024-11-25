@@ -1,0 +1,56 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  .dark-mode {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+  }
+  
