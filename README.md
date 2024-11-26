@@ -197,7 +197,7 @@ This project is a web application built with Angular that allows users to fetch 
 2. Navigate to the Task 3 Folder:
 * Change to the Task 3 Folder:
     ```
-    cd Zephyrus-coding/task3
+    cd Zephyrus-coding/task3/real-time-data-fetching
     ```
 * Install dependencies:
    ```
