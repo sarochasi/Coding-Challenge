@@ -163,7 +163,7 @@ This project is a web application built with Angular that allows users to fetch 
 
 ### Features
 
-* Responsive Navbar: A pastel-themed navigation bar for easy access to different sections of the app (Home and Posts).
+* Responsive Navbar: A navigation bar for easy access to different sections of the app (Home and Posts).
 * Home Page: A welcoming home page with a clean and modern design to engage users.
 * Real-Time Data Fetching:
   * Fetches data dynamically from the JSONPlaceholder API.
@@ -176,7 +176,7 @@ This project is a web application built with Angular that allows users to fetch 
   * Display Data: Presents the data in a structured, styled table with hover effects.
   * Search and Filter: Enables users to search posts by title dynamically.
   * Error Handling: Displays error messages if the API call fails.
-  * Responsive Layout: Aligns with the app's pastel theme and ensures a clean look on all devices.
+  * Responsive Layout: Aligns with the app's color theme and ensures a clean look on all devices.
  
 ### Libraries or Frameworks Used
 
