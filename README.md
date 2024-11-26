@@ -26,7 +26,7 @@ This project focuses on creating a responsive, multi-section webpage with modern
 * Google Fonts: Used Inter and Roboto for a modern typographic style.
 
 ### Steps to Set Up
-1. Clon the Repository:
+1. Clone the Repository:
   * Open your terminal or command prompt.
   * Clone the repository using the following command:
     ```
@@ -153,3 +153,61 @@ The Dynamic Task Management Application is a full-stack web application that all
 * Edit or delete tasks using the buttons next to each task.
 * View all tasks in a modern, responsive interface. 
 
+<hr>
+
+## Task 3: Real-Time Data Fetching and Display
+
+### Project Overview
+
+This project is a web application built with Angular that allows users to fetch and display real-time data from an external API. It features a clean and responsive design, and focuses on simplicity and usability.
+
+### Features
+
+* Responsive Navbar: A pastel-themed navigation bar for easy access to different sections of the app (Home and Posts).
+* Home Page: A welcoming home page with a clean and modern design to engage users.
+* Real-Time Data Fetching:
+  * Fetches data dynamically from the JSONPlaceholder API.
+  * Displays the data in a structured, styled table format.
+  * Includes a search bar for filtering posts by title.
+  * Handles API errors gracefully with user-friendly messages.
+* Responsive Design: Ensures usability across various devices, including desktops, tablets, and mobile phones.
+* The Posts Page implements the following:
+  * Fetch Data: Retrieves data from the https://jsonplaceholder.typicode.com/posts API.
+  * Display Data: Presents the data in a structured, styled table with hover effects.
+  * Search and Filter: Enables users to search posts by title dynamically.
+  * Error Handling: Displays error messages if the API call fails.
+  * Responsive Layout: Aligns with the app's pastel theme and ensures a clean look on all devices.
+ 
+### Libraries or Frameworks Used
+
+* Angular: A powerful framework for building dynamic web applications.
+* Bootstrap: For responsive and modern UI components.
+* Bootstrap Icons: To enhance the visual appeal of the application.
+* RxJS: For handling asynchronous data streams.
+* JSONPlaceholder API: A free REST API for testing and prototyping.
+
+### Steps to Set Up
+
+1. Clone the Repository
+  * Open your terminal or command prompt.
+  * Clone the repository using the following command:
+    ```
+    git clone https://github.com/sarochasi/Zephyrus-coding.git
+    ```
+2. Navigate to the Task 3 Folder:
+* Change to the Task 3 Folder:
+    ```
+    cd Zephyrus-coding/task3
+    ```
+* Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the Development Server:
+   ```
+   ng serve
+   ```
+   * Open your browser and navigate to http://localhost:4200.
+4. View the Application:
+* Visit the Home Page for a welcoming introduction.
+* Navigate to the Posts Page to see real-time data fetching in action.
