@@ -1,0 +1,23 @@
+# Node.js dependencies
+/backend/node_modules/
+
+# Logs
+/backend/logs/
+*.log
+
+# Environment variables
+/backend/.env
+
+# Frontend build artifacts (if any)
+/frontend/dist/
+/frontend/build/
+
+# OS or Editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Ignore .env files
+.env
+

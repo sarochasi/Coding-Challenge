@@ -1,0 +1,162 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #666666;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Form styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form input, .form textarea {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    min-height: 80px;
+}
+
+.form button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Task list */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li .task-details {
+    flex-grow: 1; 
+    text-align: left;
+}
+
+.task-list li strong {
+    font-size: 18px;
+    color: #333333;
+}
+
+.task-list li p {
+    margin: 5px 0 0;
+    color: #777777;
+    font-size: 14px;
+}
+
+.task-list li .buttons {
+    display: flex; 
+    gap: 10px; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.task-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.task-list button.edit {
+    background-color: #28a745;
+}
+
+.task-list button.edit:hover {
+    background-color: #218838;
+}
+
+.task-list button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form input, .form textarea, .form button {
+        font-size: 14px;
+    }
+
+    .task-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .task-list li .buttons {
+        margin-top: 10px;
+    }
+
+    .task-list button {
+        margin-top: 5px;
+    }
+}
