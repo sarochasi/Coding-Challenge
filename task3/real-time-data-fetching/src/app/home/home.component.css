@@ -1,0 +1,51 @@
+
+.hero-section {
+  background-color: #E7CCCC;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  color: #DE8F5F;
+}
+
+.hero-section p {
+  color: #A5B68D;
+}
+
+.hero-section .btn-pastel {
+  background-color: #C1CFA1;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-section .btn-pastel:hover {
+  background-color: #DE8F5F;
+}
+
+
+.features-section {
+  background-color: #FFCF9D;
+}
+
+.features-section h2 {
+  color: #DE8F5F;
+}
+
+.features-section h4 {
+  color: #FFB26F;
+}
+
+.features-section p {
+  color: #DE8F5F;
+}
+
+.features-section img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #FFB26F;
+  padding: 10px;
+}

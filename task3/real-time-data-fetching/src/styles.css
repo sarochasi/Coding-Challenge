@@ -1,0 +1,37 @@
+
+.navbar {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.bg-custom {
+  background-color: #FF885B;
+}
+
+.navbar-brand {
+  color: #C1CFA1;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #A5B68D;
+}
+
+.nav-link {
+  color: #EDE8DC;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #A5B68D;
+}
+
+.nav-link.active {
+  color: #C1CFA1;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

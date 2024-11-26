@@ -1,0 +1,61 @@
+/* General Layout */
+.posts-page {
+  background-color: #EDE8DC;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+/* Header Styling */
+h2 {
+  color: #C1CFA1;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p.text-secondary {
+  color: #A5B68D;
+  font-size: 1.2rem;
+}
+
+/* Search Bar */
+.search-bar input {
+  border: 2px solid #C1CFA1;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Table Styling */
+.table-custom {
+  background-color: #E7CCCC;
+  border: 1px solid #C1CFA1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-custom thead {
+  background-color: #C1CFA1;
+  color: white;
+}
+
+.table-custom th,
+.table-custom td {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #A5B68D;
+}
+
+.table-custom tbody tr:hover {
+  background-color: #A5B68D;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* No Posts Message */
+.text-secondary {
+  color: #A5B68D;
+}
