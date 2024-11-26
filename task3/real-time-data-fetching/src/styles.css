@@ -1,37 +1,48 @@
 
+html, body {
+  background-color: #4d4c4c !important;
+
+}
+
 .navbar {
-  font-family: 'Arial', sans-serif;
-  font-size: 1rem;
   padding: 1rem 1.5rem;
 }
 
-.bg-custom {
-  background-color: #FF885B;
+.bg-dark-gray {
+  background-color: #aa9e9e;
 }
 
 .navbar-brand {
-  color: #C1CFA1;
+  color: #FF5722;
   font-size: 1.5rem;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-brand:hover {
-  color: #A5B68D;
+  color: #4CAF50;
 }
 
 .nav-link {
-  color: #EDE8DC;
+  color: #E0E0E0;
   transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover {
-  color: #A5B68D;
+  color: #FF5722;
 }
 
 .nav-link.active {
-  color: #C1CFA1;
+  color: #4CAF50;
 }
+
 
 .shadow-sm {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
 }

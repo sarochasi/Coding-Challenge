@@ -1,61 +1,47 @@
-/* General Layout */
+
 .posts-page {
-  background-color: #EDE8DC;
+  background-color: #4a4646;
   min-height: 100vh;
-  padding-top: 20px;
 }
 
-.container {
-  max-width: 800px;
-}
-
-/* Header Styling */
 h2 {
-  color: #C1CFA1;
+  color: #FF5722;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 20px;
 }
 
-p.text-secondary {
-  color: #A5B68D;
-  font-size: 1.2rem;
+p.text-light {
+  color: #E0E0E0;
 }
 
-/* Search Bar */
 .search-bar input {
-  border: 2px solid #C1CFA1;
+  border: 2px solid #4CAF50;
   border-radius: 5px;
   padding: 10px;
   font-size: 1rem;
+  background-color: #bcb7b7;
+  color: #E0E0E0;
 }
 
-/* Table Styling */
+/* Table */
 .table-custom {
-  background-color: #E7CCCC;
-  border: 1px solid #C1CFA1;
+  background-color: #1F1F1F;
+  border: 1px solid #4CAF50;
   border-radius: 10px;
-  overflow: hidden;
 }
 
 .table-custom thead {
-  background-color: #C1CFA1;
+  background-color: #4CAF50;
   color: white;
 }
 
 .table-custom th,
 .table-custom td {
   text-align: center;
-  padding: 12px;
-  border: 1px solid #A5B68D;
+  padding: 10px;
+  background-color: #dfdada;
 }
 
-.table-custom tbody tr:hover {
-  background-color: #A5B68D;
-  color: white;
-  transition: background-color 0.3s ease-in-out;
-}
-
-/* No Posts Message */
-.text-secondary {
-  color: #A5B68D;
+.text-muted {
+  color: #FF5722;
 }

@@ -1,33 +1,28 @@
-
 .hero-section {
-  background-color: #E7CCCC;
-  padding: 100px 0;
+  background-color: #4A4646;
+  padding: 50px 0;
 }
 
 .hero-section h1 {
-  color: #DE8F5F;
+  color: #FF5722;
 }
 
 .hero-section p {
-  color: #A5B68D;
+  color: #E0E0E0;
 }
 
-.hero-section .btn-pastel {
-  background-color: #C1CFA1;
-  color: white;
+.hero-section .btn-primary {
+  background-color: #4CAF50;
   border: none;
-  border-radius: 30px;
-  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
   transition: background-color 0.3s ease-in-out;
 }
 
-.hero-section .btn-pastel:hover {
-  background-color: #DE8F5F;
-}
-
-
 .features-section {
   background-color: #FFCF9D;
+  padding: 50px 0;
 }
 
 .features-section h2 {
@@ -48,4 +43,7 @@
   object-fit: cover;
   border: 2px solid #FFB26F;
   padding: 10px;
+  border-radius: 10px;
 }
+
+
