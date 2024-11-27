@@ -103,6 +103,7 @@ The Dynamic Task Management Application is a full-stack web application that all
     ```
 * Install dependencies:
    ```
+   cd /Users/sarochas/SD/Zephyrus-coding/task2/backend
    npm install
    ```
 * Import the database schema:
