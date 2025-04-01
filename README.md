@@ -1,4 +1,4 @@
-# Zephyrus-coding
+# Coding-Challenge
 
 ## Task 1: Responsive Webpage
 
