@@ -30,12 +30,12 @@ This project focuses on creating a responsive, multi-section webpage with modern
   * Open your terminal or command prompt.
   * Clone the repository using the following command:
     ```
-    git clone https://github.com/sarochasi/Zephyrus-coding.git
+    git clone https://github.com/sarochasi/Coding-Challenge.git
     ```
 2. Navigate to the Task 1 Folder:
   * Change to the Task 1 Folder:
     ```
-    cd Zephyrus-coding/task1
+    cd Coding-Challengeg/task1
     ```
 3. Open the Project in Your Browser:
 * Open the index.html file using your browser:
@@ -94,16 +94,16 @@ The Dynamic Task Management Application is a full-stack web application that all
   * Open your terminal or command prompt.
   * Clone the repository using the following command:
     ```
-    git clone https://github.com/sarochasi/Zephyrus-coding.git
+    git clone https://github.com/sarochasi/Coding-Challenge.git
     ```
 2. Navigate to the Task 2 Folder:
 * Change to the Task 2 Folder:
     ```
-    cd Zephyrus-coding/task2
+    cd Coding-Challenge/task2
     ```
 * Install dependencies:
    ```
-   cd /Users/sarochas/SD/Zephyrus-coding/task2/backend
+   cd /Users/sarochas/SD/Coding-Challenge/task2/backend
    npm install
    ```
 * Import the database schema:
@@ -193,12 +193,12 @@ This project is a web application built with Angular that allows users to fetch 
   * Open your terminal or command prompt.
   * Clone the repository using the following command:
     ```
-    git clone https://github.com/sarochasi/Zephyrus-coding.git
+    git clone https://github.com/sarochasi/Coding-Challenge.git
     ```
 2. Navigate to the Task 3 Folder:
 * Change to the Task 3 Folder:
     ```
-    cd Zephyrus-coding/task3/real-time-data-fetching
+    cd Coding-Challenge/task3/real-time-data-fetching
     ```
 * Install dependencies:
    ```
